@@ -1,0 +1,341 @@
+@font-face {
+    font-family: open_sas;
+    src: url(fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+@media screen and (max-width: 768px) {
+    .right_side_div {
+        width: 808px;
+        height: 832px;
+        margin: auto;
+        margin-top: 230px;
+    }
+    
+    .lables_div {
+        width: 340px;
+        height: 73px;
+    }
+    
+    .label_1 {
+        font-family: open_sas;
+        font-size: 18px;
+        font-weight: 700;
+        color: #1F2937;
+    }
+    
+    .label_2 {
+        font-family: open_sas;
+        font-size: 16px;
+        font-weight: 400;
+        color: #6B7280;
+    }
+    
+    .sign_in_button {
+        background-color: #4285F4;
+        border-radius: 4px;
+        width: 281px;
+        height: 48px;
+        border: none;
+        margin: 0;
+        padding: 0;
+        font-family: open_sas;
+        font-size: 16px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-top: 12px;
+    }
+    
+    .button_div {
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: 2.5px; */
+    }
+    
+    .G_logo {
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+    
+    .sign_in_with_G {
+        margin-top: 11px;
+        margin-right: 47px;
+    }
+    
+    .fb_button {
+        border-radius: 4px;
+        border: none;
+        width: 47px;
+        height: 48px;
+        margin-left: 8px;
+        padding-left: 2px;
+        background-color: #ECF2FC;
+    }
+    
+    .div_rectangle {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        width: 340px;
+        height: 25px;
+    }
+    
+    .rectangle {
+        width: 340px;
+        height: 1px;
+        background-color: #E5E7EB;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    
+    
+    .input_text {
+        width: 340px;
+        height: 48px;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: #E5E7EB;
+        border-width: 1px;
+        background-image: url(img/icon.png);
+        background-repeat: no-repeat;
+    }
+    
+    .input_text::placeholder {
+        font-family: open_sas;
+        font-size: 14px;
+        font-weight: 600;
+        color: #E5E7EB;
+        padding: 48px;
+    }
+    
+    .forget_pass {
+        margin-top: 12px;
+        width: 340px;
+        height: 32px;
+        font-family: open_sas;
+        font-size: 14px;
+        font-weight: 600;
+        color: #6B7280;
+        padding: 6px 6px 6px;
+    }
+    
+    .click_here {
+        font-family: open_sas;
+        font-size: 14px;
+        font-weight: 600;
+        color: #6D58BA;
+        text-decoration: none;
+    }
+    
+    .continue_btn {
+        margin-top: 12px;
+        width: 340px;
+        height: 48px;
+        background-color: #724DFF;
+        border: none;
+        border-radius: 6px;
+        color: #FFFFFF;
+        font-family: open_sas;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .questions {
+        margin-top: 12px;
+        margin-left: 4.5px;
+        width: 331px;
+        height: 26px;
+        font-family: open_sas;
+        font-size: 14px;
+        font-weight: 600;
+        color: #6B7280;
+    }
+    
+    .email_link {
+        font-family: open_sas;
+        font-size: 14px;
+        font-weight: 600;
+        color: #6D58BA;
+        text-decoration: none;
+    }
+}
+
+.right_side_div {
+    width: 808px;
+    height: 832px;
+    margin: auto;
+    margin-top: 230px;
+}
+
+.lables_div {
+    width: 340px;
+    height: 73px;
+}
+
+.label_1 {
+    font-family: open_sas;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.label_2 {
+    font-family: open_sas;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+}
+
+.sign_in_button {
+    background-color: #4285F4;
+    border-radius: 4px;
+    width: 281px;
+    height: 48px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: open_sas;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.button_div {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2.5px; */
+}
+
+.G_logo {
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.sign_in_with_G {
+    margin-top: 11px;
+    margin-right: 47px;
+}
+
+.fb_button {
+    border-radius: 4px;
+    border: none;
+    width: 47px;
+    height: 48px;
+    margin-left: 8px;
+    padding-left: 2px;
+    background-color: #ECF2FC;
+}
+
+.div_rectangle {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 340px;
+    height: 25px;
+}
+
+.rectangle {
+    width: 340px;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+.input_text {
+    width: 340px;
+    height: 48px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-width: 1px;
+    background-image: url(img/icon.png);
+    background-repeat: no-repeat;
+}
+
+.input_text::placeholder {
+    font-family: open_sas;
+    font-size: 14px;
+    font-weight: 600;
+    color: #E5E7EB;
+    padding: 48px;
+}
+
+.forget_pass {
+    margin-top: 12px;
+    width: 340px;
+    height: 32px;
+    font-family: open_sas;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6B7280;
+    padding: 6px 6px 6px;
+}
+
+.click_here {
+    font-family: open_sas;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6D58BA;
+    text-decoration: none;
+}
+
+.continue_btn {
+    margin-top: 12px;
+    width: 340px;
+    height: 48px;
+    background-color: #724DFF;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: open_sas;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.questions {
+    margin-top: 12px;
+    margin-left: 4.5px;
+    width: 331px;
+    height: 26px;
+    font-family: open_sas;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6B7280;
+}
+
+.email_link {
+    font-family: open_sas;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6D58BA;
+    text-decoration: none;
+}
+
+.left_side_div {
+    width: 469px;
+    height: 832px;
+    margin-right: 234px;
+}
+
+.main_div {
+    display:flex;
+}
+
+/* .test_flex {
+    width: 400px;
+    border: solid red 10px;
+    display: flex;
+    justify-content: space-between;
+} */
